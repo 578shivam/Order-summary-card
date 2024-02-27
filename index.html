@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    body{
+      margin: 20px;
+      padding: 20px;
+      background-image: url(images/pattern-background-desktop.svg);
+      background:no-repeat;
+      background:fixed;
+      background-color:hsl(225, 100%, 94%) ;
+      font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+
+      
+    }
+    .card-1{
+      width: 334px;
+    height: 544px;
+    background-color: white;
+    border-radius: 10px;
+    }
+    .card-1 img{
+          width: 21rem;
+    height: 10rem;
+    margin-bottom: 30px;
+    border-radius: 10px 10px 0px 0px;
+    }
+    .flex{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    }
+    .flex{
+      width: 21rem;
+    height: 5rem;
+    margin-top: 2rem;
+    
+    }
+    .flex img{
+      width: 40px;
+      height: 40px;
+    }
+    .pictures h2{
+      text-align: center;
+      margin: 1.4rem;
+    }
+    .pictures p{
+      text-align: center;
+    line-height: 21px;
+    font-size: 15px;
+    font-weight: 100;
+    color:  hsl(224, 23%, 55%);
+    }
+    .underline p{
+      font-weight: 700;
+      font-size: 13px;
+      color: hsl(224, 57%, 51%);
+      cursor: pointer;
+    }
+    .text-1 p{
+      font-weight: 100;
+      font-size: 15px;
+      color:  hsl(224, 23%, 55%);
+      margin-top: 5px;
+    }
+    .button{
+      text-align: center;
+    }
+    .button button{
+      width: 260px;
+      height: 40px;
+      background-color: hsl(245, 75%, 52%);
+      color: white;
+      border: solid white;
+      border-radius: 10px;
+      cursor: pointer;
+      
+      
+    }
+    .button :hover{
+      position: relative;
+      top: 0;
+      background-color:hsl(226, 56%, 77%);
+      transition: 2.6s;
+    }
+    
+    .btn-1{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: hsl(224, 23%, 55%);
+      cursor: pointer;
+    }
+    .right{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (width <600px){
+      
+
+    }
+  </style>
+</head>
+<body>
+
+<div class="right">
+  <div class="card-1">
+    <div class="pictures">
+      <img src="images/illustration-hero.svg" alt=""> 
+      <h2>Order Summary</h2>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+    </div>
+    <div class="flex">
+      <img src="images/icon-music.svg" alt="">
+      <div class="text-1">
+        <h4>Annual Plan</h4>
+        <p>$59.99/year</p>
+      </div>
+      <div class="underline">
+        <p><u>Change</u></p>
+      </div>
+    </div>
+ 
+    <div class="button">
+      <button>
+        Proceed to Payment</button>
+       
+    </div>
+    <div class="btn-1">
+      <p>cancel order</p>
+    </div>
+  </div>
+</div>
+
+
+ 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">shivam kumar</a>.
+  </div>
+</body>
+</html>
